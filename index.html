@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pritam Parab | Data Engineer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="bg-canvas"></div>
+
+    <nav class="navbar">
+        <div class="logo">&lt;Pritam<span>Parab</span>/&gt;</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#tech-blogs">Tech</a></li>
+            <li><a href="#stories">Stories</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <div style="display:inline-block; padding:5px 15px; background:#e0e7ff; color:#6366f1; border-radius:20px; font-weight:bold; font-size:0.85rem; margin-bottom:1rem;">
+                    Open to Work
+                </div>
+                <h1>Architecting <br><span>Scalable Data</span></h1>
+                <p>Hi, I'm <strong>Pritam Parab</strong>. A Data Engineer specializing in enterprise ETL, Databricks, and Python automation. I build reliable pipelines for critical business decisions.</p>
+                <a href="#contact" class="btn">Let's Connect</a>
+            </div>
+            <div class="code-card-wrapper">
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="dot red"></div>
+                        <div class="dot yellow"></div>
+                        <div class="dot green"></div>
+                        <div class="filename">profile.py</div>
+                    </div>
+                    <div class="window-body">
+                        <code id="typed-code"><span class="cursor"></span></code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding container">
+        <h2>About <span>Me</span></h2>
+        <div class="card" style="text-align:center; max-width:900px; margin:0 auto;">
+            <p style="font-size:1.1rem; color:var(--text-muted);">
+                I am a Data Engineer with 4+ years of experience architecting and deploying high-volume ETL/ELT pipelines. 
+                My expertise lies in bridging the gap between complex raw data and actionable analytics using modern cloud tools.
+            </p>
+            <hr style="border: none; height: 1px; background-color: var(--primary); margin: 2rem auto; width: 50%;">
+            <div style="margin-top:2rem; display:flex; justify-content:center; gap:3em; flex-wrap:wrap;">
+                <div>
+                    <strong style="font-size:1.2rem; color:var(--primary);">#1 Canadian Insurer</strong>
+                </div>
+                <div>
+                    <strong style="font-size:1.2rem; color:var(--secondary);">Fortune 500 Manufacturing</strong>
+                </div>
+                <div>
+                    <strong style="font-size:1.2rem; color:var(--accent);">Top 3 US Pharma</strong>
+                </div>
+            </div>
+            <div style="margin-top:1rem; display:flex; justify-content:center; gap:3rem; flex-wrap:wrap;">
+                Client Portfolio
+            </div>
+            <hr style="border: none; height: 1px; background-color: var(--primary); margin: 2rem auto; width: 50%;">
+            <div style="margin-top:2rem; display:flex; justify-content:center; gap:3rem; flex-wrap:wrap;">
+                <div>
+                    <strong style="font-size:2.5rem; color:var(--primary);">4+</strong><br>Years Exp
+                </div>
+                <div>
+                    <strong style="font-size:2.5rem; color:var(--secondary);">High Volume</strong><br>Data Scale
+                </div>
+                <div>
+                    <strong style="font-size:2.5rem; color:var(--accent);">90%</strong><br>Automation
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-padding container">
+        <h2>Technical <span>Arsenal</span></h2>
+        <div class="grid-3">
+            <div class="card">
+                <i class="fas fa-code" style="font-size:2rem; color:var(--primary); margin-bottom:1rem;"></i>
+                <h3>Languages</h3>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">PL/SQL</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">Shell Script</span>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fas fa-database" style="font-size:2rem; color:var(--secondary); margin-bottom:1rem;"></i>
+                <h3>Databases</h3>
+                <div class="tags">
+                    <span class="tag">Oracle</span>
+                    <span class="tag">MS SQL</span>
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">Teradata</span>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fas fa-cloud" style="font-size:2rem; color:var(--accent); margin-bottom:1rem;"></i>
+                <h3>Tools & Cloud</h3>
+                <div class="tags">
+                    <span class="tag">Databricks</span>
+                    <span class="tag">Qlik Replicate</span>
+                    <span class="tag">Informatica IICS</span>
+                    <span class="tag">Azure DF</span>
+                    <span class="tag">Power BI</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech-blogs" class="section-padding container">
+        <h2>Technical <span>Writes</span></h2>
+        <div class="grid-2">
+            <a href="blogs/tech.html" class="blog-card">
+                <div class="blog-img" style="background-image: url('assets/images/tech.png')"></div>
+                <div class="blog-content">
+                    <div class="blog-cat">Engineering</div>
+                    <h3>Optimizing ETL Pipelines</h3>
+                    <p>How I reduced monitoring overhead by 90% using Python & APIs.</p>
+                </div>
+            </a>
+            <a href="https://medium.com/" target="_blank" class="blog-card">
+                <div class="blog-img" style="background-image: url('assets/images/cloud.png')"></div>
+                <div class="blog-content">
+                    <div class="blog-cat">Cloud</div>
+                    <h3>The Future of IDMC</h3>
+                    <p>External thoughts on Informatica's cloud trajectory and Databricks integration.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="stories" class="section-padding container">
+        <h2>Personal <span>Stories</span></h2>
+        <div class="grid-3">
+            <a href="blogs/ladakh.html" class="blog-card">
+                <div class="blog-img" style="background-image: url('assets/images/leh.png')"></div>
+                <div class="blog-content">
+                    <div class="blog-cat">Travel</div>
+                    <h3>Ladakh Expedition</h3>
+                    <p>Riding through the highest motorable passes.</p>
+                </div>
+            </a>
+             <a href="blogs/kedarnath.html" class="blog-card">
+                <div class="blog-img" style="background-image: url('assets/images/travel_temple.png')"></div>
+                <div class="blog-content">
+                    <div class="blog-cat">Spiritual</div>
+                    <h3>Kedarnath Trek</h3>
+                    <p>A journey of faith and endurance in the Himalayas.</p>
+                </div>
+            </a>
+            <a href="blogs/anime.html" class="blog-card">
+                <div class="blog-img" style="background-image: url('assets/images/anime.png')"></div>
+                <div class="blog-content">
+                    <div class="blog-cat">Hobby</div>
+                    <h3>Anime & Storytelling</h3>
+                    <p>Why narratives in anime resonate with me.</p>
+                </div>
+            </a>
+            <a href="blogs/hotwheels.html" class="blog-card hidden">
+                <div class="blog-img" style="background-image: url('assets/images/hotwheels.png')"></div>
+                <div class="blog-content">
+                    <div class="blog-cat">Collection</div>
+                    <h3>Hot Wheels</h3>
+                    <p>A childhood passion for automotive design.</p>
+                </div>
+            </a>
+            <a href="blogs/rajasthan.html" class="blog-card hidden">
+                <div class="blog-img" style="background-image: url('assets/images/travel_desert.png')"></div>
+                <div class="blog-content">
+                    <div class="blog-cat">Travel</div>
+                    <h3>Rajasthan Colors</h3>
+                    <p>Exploring forts, deserts, and history.</p>
+                </div>
+            </a>
+        </div>
+        <div style="text-align:center;">
+            <button id="load-more" class="btn-outline">Show More</button>
+        </div>
+    </section>
+
+    <section id="experience" class="section-padding container">
+        <h2>My <span>Journey</span></h2>
+        <div style="max-width:800px; margin:0 auto;">
+            <div class="timeline-item">
+                <div class="timeline-date">Dec 2022 - Present</div>
+                <h3>Data Engineer</h3>
+                <p><strong>Accenture</strong> | Mumbai</p>
+                <ul style="margin-top:1rem; padding-left:1.2rem; color:var(--text-muted);">
+                    <li>Building High-Volume pipelines into Databricks via Qlik Replicate.</li>
+                    <li>Automated alerting for 100+ replication tasks using Python.</li>
+                    <li>Migrated critical workloads from PowerCenter to IDMC Cloud.</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">June 2021 - Nov 2022</div>
+                <h3>App Development Associate</h3>
+                <p><strong>Accenture</strong></p>
+                <ul style="margin-top:1rem; padding-left:1.2rem; color:var(--text-muted);">
+                    <li>Delivered IFRS17 pipelines for Singapore & Canada LOBs.</li>
+                    <li>Built 50+ Informatica IICS mappings.</li>
+                </ul>
+            </div>
+             <div class="timeline-item">
+                <div class="timeline-date">Mar 2021 - June 2021</div>
+                <h3>Android Intern</h3>
+                <p><strong>OS Pvt Ltd</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Let's <span>Collaborate</span></h2>
+        <div class="socials">
+            <a href="mailto:pritamparab1012@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://linkedin.com/in/pritam1012"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+        <p style="margin-top:2rem; color:var(--text-muted);">
+            +91 9769344541 | Mumbai, India<br>
+            &copy; 2025 Pritam Parab
+        </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
